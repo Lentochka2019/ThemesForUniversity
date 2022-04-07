@@ -1,0 +1,213 @@
+.cmpscr {
+                    font-size: 14px;
+                    line-height: 1;
+                }
+
+                .cmpscr__label--title {
+                    font-weight: bold;
+                }
+
+                .cmpscr__error {
+                    color: red;
+                    margin: 5px;
+                }
+
+               .cmpscr__select {
+    height: 30px;
+    font-size: 14px;
+    color: #1b3769;
+    border-color: #1b3769;
+    width: auto;
+	
+}
+span#cmpscr-p3-title br {
+    display: none;
+}
+select.cmpscr__select:not(:focus) {
+     color: inherit;
+    font-weight: 400;
+}
+
+                .cmpscr__select--branch {
+                    width: 150px;
+                }
+
+                .cmpscr__input {
+                   height: 25px;
+    font-size: 14px;
+    padding: 0 5px;
+    width: auto;
+    text-align: center;
+    border: solid 1px #1b3769;
+    outline-color: rgb(80, 0, 0);
+    width: 80%;
+    background: #c3cfe7;
+                }
+
+                .cmpscr__input[data-error] {
+                    border: solid 2px red;
+                    outline: none;
+                }
+
+                .cmpscr__checkbox {
+                    color: rgb(80, 0, 0);
+                }
+
+                .cmpscr__two-column>.cmpscr__label {
+                   display: inline-block;
+    width: 100%;
+    line-height: 2;
+    margin: 20px auto 10px;
+   
+                }
+
+                .cmpscr__button {
+                    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+                    display: inline-block;
+                }
+
+                .cmpscr__result {
+                    padding: 0.5rem 8px;
+                    font-size: 0.9rem;
+                    border: solid 2px;
+                    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+                    font-weight: bold;
+                    margin-left: 15px;
+                    color: #333366;
+                }
+
+	span.cmpscr__label_big {
+    /*transform: translateY(-50%); */
+    margin: 10px auto;
+    display: block;
+     background: #c3cfe7; 
+    color: #222;
+    font-weight: 400;
+    padding: 2px 5px;
+    text-align: center;
+    width: 95%;
+    line-height: 1.3;
+    border: 1px solid #1b3769;
+	}
+
+h3.cmpscr__title {
+    border-bottom: none;
+    margin-bottom: 0!important;
+    padding-bottom: 0;
+    padding-left: 10px;
+}
+p.cmpscr__label.cmpscr__label--title {
+ /*   margin-bottom: 40px;*/
+}
+
+				p.cmpscr__field {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+span.plus {
+    font-size: 80px;
+    display: block;
+    padding: 50px 10px;
+    font-weight: normal;
+    color: #1b3769;
+}
+		
+.table-row {
+    display: flex;
+	width:100%;
+	margin-top: 20px;
+}
+.spec div#viewer {
+    padding:20px
+}
+select#cmpscr-spec,/*p.cmpscr__two-column,*/.stro4ka2
+{
+	 /*   background: #fff;
+    border: 1px solid #eceaea;*/
+ /*  margin: 4px;*/
+}
+p.cmpscr__two-column,.stro4ka2 {
+	text-align:center
+      
+}
+p.cmpscr__two-column {
+    transform: translateY(-20%);
+}
+
+.stro4ka2>.div___back
+{
+	    width: 45%;
+    margin: 20px;
+    padding: 5px 10px 15px;
+}
+.stro4ka2 span.cmpscr__label_big
+{line-height:2.2}
+
+/*.table-row:not(.stro4ka2) div:nth-child(2){
+    margin: 0 15px;
+}*/
+p.cmpscr__label{
+    margin: 10px 0;
+    padding: 5px 0px;
+}
+select#cmpscr-spec {
+    padding-left: 5px;
+}
+.cmpscr__field label {
+       
+    display: flex;
+    align-items: center;
+}
+.cmpscr__field label>*
+{padding:0 10px}
+
+.div___back {
+    background: #fff;
+    border: 1px solid #1b3769;
+flex-basis: 100%;
+    width: 30%;
+}
+select:not(:focus),select:focus {
+    color: inherit;
+    font-weight: 400;
+}
+
+select:focus option {
+  color: initial;
+}
+
+.cmpscr__field label>* {
+    font-size: 16px;
+    color: #1b3769;
+    font-weight: bold;
+    padding: 0 20px 0 0;
+}
+.stro4ka2>.div___back:first-child {
+    margin-right: 50px;
+}
+span.plus {
+    font-size: 80px;
+    display: block;
+    padding: 50px 10px;
+    font-weight: normal;
+    color: #1b3769;
+}
+.stro4ka2>.div___back {
+    width: 30%;
+    margin: 20px 0;
+    padding: 5px 10px 15px;
+}
+button#cmpscr-btn {
+   background: #1b3769;
+    border: 3px solid #1b3769;
+    color: #fff;
+    width: 320px;
+    letter-spacing: 0.3em;
+    font-size: 20px;
+}
+p.cmpscr__label:first-child {
+    font-size: 16px;
+    color: #1b3769;
+    font-weight: bold;
+    padding: 0;
+}

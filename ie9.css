@@ -1,0 +1,61 @@
+/*
+Theme Name: DonNTU
+Theme URI: 
+Author: KI
+Author URI:
+Description: KI DonNTU
+Version: 1.0
+*/
+
+/*.gerb,.shapka{display:none}
+
+.logo{
+	 background:#edece8 url(./images/body4.png) center top no-repeat;
+	 color:transparent;
+	 height:130px
+	}
+	.logo a{color:transparent}
+	.head-menu{
+	height:50px; background:#edece8 url(./images/body1.png) center top no-repeat;
+	}
+	
+	.head-menu2{
+	height:45px; background:#edece8 url(./images/body3.png) center top no-repeat;
+	filter:none;
+	padding-bottom:5px;
+	}
+	.head-menu2:before, .head-menu2:after{border:none;}*/
+	body{background:#f1efe0;}
+	a img {border:none}
+
+	
+.content-faculty{display:table-row; margin:10px}	
+.content-faculty >* {display:table-cell; vertical-align:top; margin:10px!important; }
+.content-faculty .sidebar {float:none;font-style: italic;      padding: 5px 10px;    min-width: 190px; width:20%}
+	.content-faculty .post{width:80%}
+	.content{ min-width:700px; width:75%; float:left; margin:10px 0 0 20px;} 
+.express {
+   min-width: 30%;
+  margin: 0 5px;
+  display: table-cell;
+width:30%;
+  padding: 10px;
+}
+.express:not(:last-child) {
+ border-right: 1px solid #D1EA9D;
+ float:left
+}
+.main_nav > li{float:left}
+.main_nav > LI.menu-item-3303{float:none}
+ 
+.head-menu.menus:after, .main_nav:after  {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.links > DIV{float:left}
+.head-menu2 > div:first-child {    background: green;    padding: 14px 0 8px;}
+.gerb { display:none}
+.logo H1 a{color:#000}
